@@ -21,7 +21,7 @@ In order to run the above notebooks, you will require a PyTerrier ColBERT index 
 import pyterrier as pt
 from pyterrier_colbert.indexing import ColBERTIndexer
 checkpoint="http://www.dcs.gla.ac.uk/~craigm/ecir2021-tutorial/colbert_model_checkpoint.zip"
-indexer = ColBERTIndexer(checkpoint, "/path/to/index", "index_name")
+indexer = ColBERTIndexer(checkpoint, "/path/to/index", "index_name", chunksize=3)
 indexer.index(pt.get_dataset("msmarco_passage").get_corpus_iter())
 ```
 Space consumption of the final index is 185GB, as mentioned in the paper.
