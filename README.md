@@ -23,6 +23,7 @@ from pyterrier_colbert.indexing import ColBERTIndexer
 checkpoint="http://www.dcs.gla.ac.uk/~craigm/ecir2021-tutorial/colbert_model_checkpoint.zip"
 indexer = ColBERTIndexer(checkpoint, "/path/to/index", "index_name", chunksize=3)
 indexer.index(pt.get_dataset("msmarco_passage").get_corpus_iter())
+!ln -s /path/to/index/index_name/ivfpq.262144.faiss /path/to/index/index_name/ivfpq.faiss 
 ```
 Space consumption of the final index is 185GB, as mentioned in the paper.
 
