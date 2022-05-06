@@ -27,7 +27,9 @@ indexer.index(pt.get_dataset("msmarco_passage").get_corpus_iter())
 ```
 Space consumption of the final index is 185GB, as mentioned in the paper.
 
-## Run Files
+## TREC Covid
+
+We provide a [separate notebook](notebooks/trec-covid.ipynb) providing all indexing and results on the TREC Covid corpus.
 
 ## Citation
 
