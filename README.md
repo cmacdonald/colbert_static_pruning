@@ -31,6 +31,14 @@ Space consumption of the final index is 185GB, as mentioned in the paper.
 
 We provide a [separate notebook](notebooks/trec-covid.ipynb) providing all indexing and results on the TREC Covid corpus.
 
+## Installation
+
+These are necessary:
+```shell
+pip install git+https://github.com/terrierteam/pyterrier_colbert.git
+pip install setuptools==59.5.0
+```
+
 ## Citation
 
 To follow.
