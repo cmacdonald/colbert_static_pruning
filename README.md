@@ -1,6 +1,6 @@
 # ColBERT - Static Pruning
 
-This repository is the virtual appendix for the paper ``The Reasonable Efficacy of IDF in Multi-Representation Dense Retrieval Pruning'' (Under Review).
+This repository is the virtual appendix for the paper ``Static Pruning for Multi-Representation Dense Retrieval'' (Under Review).
 
 It makes use of [PyTerrier](https://github.com/terrier-org/pyterrier/) and [PyTerrier_ColBERT](https://github.com/terrierteam/pyterrier_colbert) to demonstrate the power of static-pruning methods for reducing ColBERT indices without loss of effectiveness.
 
