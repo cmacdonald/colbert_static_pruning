@@ -1,6 +1,6 @@
 # ColBERT - Static Pruning
 
-This repository is the virtual appendix for the paper "Static Pruning for Multi-Representation Dense Retrieval'', published in ACM DocEng 2023.
+This repository is the virtual appendix for the paper [Static Pruning for Multi-Representation Dense Retrieval](https://eprints.gla.ac.uk/300119/1/300119.pdf), published in ACM DocEng 2023.
 
 It makes use of [PyTerrier](https://github.com/terrier-org/pyterrier/) and [PyTerrier_ColBERT](https://github.com/terrierteam/pyterrier_colbert) to demonstrate the power of static-pruning methods for reducing ColBERT indices without loss of effectiveness.
 
@@ -41,7 +41,7 @@ pip install setuptools==59.5.0
 
 ## Citation
 
-Static Pruning for Multi-Representation Dense Retrieval. Antonio Acquavia, Nicola Tonellotto, Craig Macdonald. In Proceedings of DocEng'2023
+[Static Pruning for Multi-Representation Dense Retrieval. Antonio Acquavia, Nicola Tonellotto, Craig Macdonald. In Proceedings of DocEng'2023](https://eprints.gla.ac.uk/300119/1/300119.pdf)
 
 ```bibtex
 @inproceedings{doceng2023,
